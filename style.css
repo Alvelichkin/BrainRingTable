@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    height: 600px;
+}
+
+
+
+.yellow {
+    background-color: yellow;
+    color: indianred;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact;
+    font-stretch: ultra-expanded;
+    font-size: 300px;
+}
+
+.red {
+    background-color: indianred;
+    color: yellow;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact;
+    font-stretch: ultra-expanded;
+    font-size: 300px;
+}
+
+button {
+    align-self: center;
+}
