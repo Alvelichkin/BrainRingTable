@@ -35,3 +35,68 @@
 button {
     align-self: center;
 }
+
+.buttons {
+    position: absolute;
+    left: 45%;
+}
+
+.timerDisable {
+    position: absolute;
+    left: 28%;
+    top: 25%;
+    z-index: 35;
+    width: 600px;
+    height: 400px;
+    background-color: azure;
+    text-align: center;
+    padding-top: 190px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.timer {
+    position: absolute;
+    left: 28%;
+    top: 25%;
+    z-index: 35;
+    width: 600px;
+    height: 400px;
+    background-color: azure;
+    text-align: center;
+    padding-top: 190px;
+    box-sizing: border-box;
+}
+
+.timerYellow {
+    position: absolute;
+    left: 28%;
+    top: 25%;
+    z-index: 35;
+    width: 600px;
+    height: 400px;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 190px;
+    box-sizing: border-box;
+    border: solid 5px black;
+}
+
+.timerRed {
+    position: absolute;
+    left: 28%;
+    top: 25%;
+    z-index: 35;
+    width: 600px;
+    height: 400px;
+    background-color: indianred;
+    text-align: center;
+    padding-top: 190px;
+    box-sizing: border-box;
+    border: solid 5px black;
+}
+
+.remove {
+    margin-left: 28px;
+}
+
